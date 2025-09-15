@@ -16,7 +16,7 @@ function calbi(){
         iter++;
         mid = (xl + xr)/2;
         let fmid = f(mid, funcstr);
-            output += `iteration ${iter}: XL=${xl}, XR=${xr}, Mid=${mid}, f(Mid)=${fmid}\n`;
+        output += `iteration ${iter}: XL=${xl}, XR=${xr}, Mid=${mid}, f(Mid)=${fmid}\n`;
         if (fmid==0)  {
             break;
         } else if (fxl * fmid < 0){
