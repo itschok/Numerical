@@ -10,10 +10,9 @@ function Calculator(){
     let fxr = f(xr, func);
     let mid;
     let iter = 0;
-    let tol = 0.000001;
-    let output = "";
+    let output;
 
-    while((xr - xl)/2 > tol){
+    while((xr - xl)/2 > 0.000001){
         iter++;
         mid = (xl + xr)/2;
         let fmid = f(mid, func);
