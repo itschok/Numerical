@@ -1,5 +1,5 @@
-function f(x, funcstr){
-    return eval(funcstr);
+function f(x, funcs){
+    return eval(funcs);
 }
 
 function Calculator(){
