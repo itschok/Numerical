@@ -9,11 +9,11 @@ function Calculator(){
     let fxl = f(xl, func);
     let fxr = f(xr, func);
     let mid;
-    let iter = 0;
+    let iteration = 0;
     let output;
 
     while((xr - xl)/2 > 0.000001){
-        iter++;
+        iteration++;
         mid = (xl + xr)/2;
         let fmid = f(mid, func);
         output += `${iter},${xl},${xr},${mid},${fmid}\n`;
