@@ -30,6 +30,6 @@ function Calculator(){
         }
     }
 
-    output += `Root ≈ ${mid}`;
+    output += `${mid}`;
     document.getElementById("result").textContent = output;
 }
